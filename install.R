@@ -9,17 +9,13 @@ install.packages("BiocManager", repos="https://cran.rstudio.com")
 #devtools::install_github("Bioconductor/BiocManager")
 library(BiocManager)
 
-if(BiocManager::version() != "3.10"){
-    BiocManager::install(version="3.10",
-                         update=TRUE, ask=FALSE)
-}
 
 std_pkgs <- c(
 	"devtools", "edgeR",
-	"ggpubr", "MAST", 
-	"plyr", "Rtsne", 
-	"scales", "scater", 
-	"scran", "tidyverse", 
+	"ggpubr", "MAST",
+	"plyr", "Rtsne",
+	"scales", "scater",
+	"scran", "tidyverse",
 	"viridis", "monocle",
 	"DescTools")
 
