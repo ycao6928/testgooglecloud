@@ -29,5 +29,4 @@ builtins <- c(std_pkgs, gh_pkgs)
 for (builtin in builtins)
     if (!suppressWarnings(require(builtin, character.only=TRUE)))
         suppressWarnings(BiocManager::install(builtin,
-                                              version="3.10",
                                               update=TRUE, ask=FALSE))
