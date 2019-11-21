@@ -1,4 +1,4 @@
-FROM bioconductor/devel_core2
+FROM bioconductor/devel_core2:20190919
 
 MAINTAINER kevin.wang@sydney.edu.au
 
