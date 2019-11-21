@@ -11,18 +11,9 @@ library(BiocManager)
 
 
 std_pkgs <- c(
-	"devtools", "edgeR",
-	"ggpubr", "MAST",
-	"plyr", "Rtsne",
-	"scales", "scater",
-	"scran", "tidyverse",
-	"viridis", "monocle",
-	"DescTools")
+	"devtools", "edgeR")
 
-gh_pkgs <- c("MarioniLab/DropletUtils",
-             "SydneyBioX/scdney",
-             "SydneyBioX/scMerge",
-             "SydneyBioX/scClassify")
+gh_pkgs <- c("MarioniLab/DropletUtils")
 
 builtins <- c(std_pkgs, gh_pkgs)
 
