@@ -1,4 +1,5 @@
-FROM bioconductor/devel_core2:20190919
+#FROM bioconductor/devel_core2:20190919 #old copy
+FROM bioconductor/devel_core2 #new copy
 
 MAINTAINER kevin.wang@sydney.edu.au
 
